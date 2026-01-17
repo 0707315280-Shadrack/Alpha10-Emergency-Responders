@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Alpha 10 Emergency Responders</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <span class="top-label">24/7 Emergency Line</span>
+                <a href="tel:+254714149652" class="top-phone">+254 714 149 652</a>
+            </div>
+            <div class="top-bar-right">
+                <a href="mailto:alphaemergencyresponders9@gmail.com" class="top-email">alphaemergencyresponders9@gmail.com</a>
+                <span class="top-location">P.O. Box 00100, Kasarani, Nairobi</span>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html#top" class="brand">
+                <img src="IMAGES/logo.jpeg" alt="Alpha 10 Emergency Responders logo" class="brand-logo" />
+                <div class="brand-text">
+                    <span class="brand-name">ALPHA 10</span>
+                    <span class="brand-tagline">Emergency Responders</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html#governance">Governance</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Contact &amp; Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section bg-light">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p class="section-intro">
+                    Alpha 10 Emergency Responders provides professional, coordinated emergency and training services
+                    designed to safeguard lives and strengthen community resilience in Kenya and beyond.
+                </p>
+
+                <div class="values-grid">
+                    <article class="value-card service-card">
+                        <h3>Emergency Medical Response</h3>
+                        <p>
+                            Rapid response to medical emergencies including trauma, medical collapse, road traffic
+                            accidents and community incidents. Our certified responders stabilise patients and coordinate
+                            safe transfer to health facilities.
+                        </p>
+                    </article>
+
+                    <article class="value-card service-card">
+                        <h3>Disaster &amp; Incident Management</h3>
+                        <p>
+                            Structured response to disasters and large-scale incidents using an Incident Command System.
+                            We support scene management, triage, evacuation and coordination with other agencies.
+                        </p>
+                    </article>
+
+                    <article class="value-card service-card">
+                        <h3>Event Medical Cover</h3>
+                        <p>
+                            Professional standby medical teams for public gatherings, sports events, corporate
+                            functions and community activities, ensuring immediate support in case of emergencies.
+                        </p>
+                    </article>
+
+                    <article class="value-card service-card">
+                        <h3>Training &amp; Capacity Building</h3>
+                        <p>
+                            Structured training programmes including CPR, First Aid, basic life support and disaster
+                            preparedness for individuals, organisations and community groups.
+                        </p>
+                    </article>
+
+                    <article class="value-card service-card">
+                        <h3>Community Outreach &amp; Safety Awareness</h3>
+                        <p>
+                            Health talks, safety campaigns and outreach initiatives aimed at empowering communities to
+                            prevent emergencies and respond calmly and effectively when they occur.
+                        </p>
+                    </article>
+
+                    <article class="value-card service-card">
+                        <h3>Partnerships &amp; Consultancy</h3>
+                        <p>
+                            Collaboration with institutions, NGOs and private sector partners, including Pimac
+                            International, to design emergency response plans, drills and resilience programmes.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="footer-brand">
+                    <img src="IMAGES/logo.jpeg" alt="Alpha 10 Emergency Responders logo" />
+                    <div>
+                        <p class="footer-name">Alpha 10 Emergency Responders</p>
+                        <p class="footer-tagline">Courage &bull; Compassion &bull; Integrity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Alpha 10 Emergency Responders. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const yearSpan = document.getElementById('year');
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>
